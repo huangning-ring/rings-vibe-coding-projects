@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Local Cookie Bulk Importer",
+  "version": "1.0.0",
+  "description": "One-time, offline importer for Cookie-Editor JSON exports.",
+  "permissions": ["cookies"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Local Cookie Bulk Importer",
+    "default_popup": "importer.html"
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>本地 Cookie 批量导入器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>本地 Cookie 批量导入器</h1>
+    <p class="warning">此扩展只在本机读取所选 JSON，不联网。导入完成后请立即卸载。</p>
+    <label class="file-label" for="cookie-file">选择 Cookie-Editor JSON 文件</label>
+    <input id="cookie-file" type="file" accept=".json,application/json">
+    <div id="summary" class="summary">尚未选择文件</div>
+    <button id="import-button" type="button" disabled>开始导入全部 Cookie</button>
+    <progress id="progress" value="0" max="1"></progress>
+    <pre id="log" aria-live="polite"></pre>
+  </main>
+  <script src="importer.js"></script>
+</body>
+</html>
