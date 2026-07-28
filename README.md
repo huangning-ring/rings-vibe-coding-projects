@@ -8,6 +8,7 @@ Personal vibe coding projects organized as reusable skills, plugins, and extensi
 # 当前项目 / Projects
 - `extensions/cookie-bulk-importer/`：一次性、离线的 Chromium Cookie JSON 批量导入器。A one-time offline bulk importer for Chromium Cookie JSON exports.
 - `skills/medical-handout/`：将医学课程 PPT/PDF 整理为逐页锚定复习讲义的技能。A skill for turning medical course PPT/PDF files into page-anchored study handouts.
+- `skills/personal-format/`：安全标准化 Markdown 与 Obsidian 笔记格式的技能。A skill for safely standardizing Markdown and Obsidian note formatting.
 - `skills/remove-blank-lines-md/`：递归清理 Markdown 空白行的技能。A skill for removing blank lines from Markdown files.
 # License
 MIT
