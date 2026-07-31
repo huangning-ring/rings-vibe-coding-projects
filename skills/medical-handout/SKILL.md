@@ -151,7 +151,7 @@ description: >
 **Step 1 — 运行 personal-format 脚本**：
 
 ```bash
-python "C:\Users\29731\.Codex\skills\personal-format\scripts\personal_format.py" "复习/{科目}/{文件名}.md"
+python scripts/personal_format.py "复习/{科目}/{文件名}.md"
 ```
 
 该脚本自动处理：`---`→`***`（除 YAML frontmatter）、去概述 H1、清空行、表格/Callout 间距修复、`\n`→真实换行。
