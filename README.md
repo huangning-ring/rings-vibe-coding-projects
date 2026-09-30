@@ -10,5 +10,6 @@ Personal vibe coding projects organized as reusable skills, plugins, and extensi
 - `skills/medical-handout/`：将医学课程 PPT/PDF 整理为逐页锚定复习讲义的技能。A skill for turning medical course PPT/PDF files into page-anchored study handouts.
 - `skills/personal-format/`：安全标准化 Markdown 与 Obsidian 笔记格式的技能。A skill for safely standardizing Markdown and Obsidian note formatting.
 - `skills/remove-blank-lines-md/`：递归清理 Markdown 空白行的技能。A skill for removing blank lines from Markdown files.
+- `skills/HN-literature-research/`：HN自己制作的文献检索skill，包括明确调研主题、构建查准检索式、结果反馈、构建查全检索式、形成报告、下载全文等全链条文献检索调研步骤。以及对应的依赖安装skill。
 # License
 MIT
